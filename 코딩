@@ -1,0 +1,145 @@
+<body>
+  <style>
+    *{
+      border-collapse:collapse;
+      margin:0px;
+      padding:0px;
+      text-decoration:none;
+      color:black;
+      list-style:none;
+    }
+    table{
+      border:1px solid black;
+    }
+    table>thead>tr>th{
+      border:1px solid gray;
+    }
+    table>tbody>tr>td{
+      border:1px solid gray;
+      background-color:pink;
+    }
+  </style>
+
+  <table>
+    <thead>
+        <tr>
+          <th>이름</th>
+          <th>성별</th>
+          <th>나이</th>
+          <th>키</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>OGM</td>
+          <td>남자</td>
+          <td>21</td>
+          <td>175</td>
+        </tr>
+        <tr>
+          <td>KMJ</td>
+          <td>여자</td>
+          <td>21</td>
+          <td>152</td>
+        </tr>
+    </tbody>
+
+  </table>
+  mmmmmmmmmmmmm]
+  <style>
+  div{
+    background:pink;
+    padding:10px;
+    margin-left:40px;
+  }
+  div > span:first-child{
+    background:skyblue;
+    padding-left:20px;
+  }
+  div > span{
+    background:yellowgreen;
+    padding:10px;
+    margin:40px;
+  }
+</style>
+<div>
+  <span>ogaeng</span>
+  <span>디자인</span>
+  <span>입니다</span>
+</div>
+mmmmmmmmmmmmmmmmmmmmmmm
+<style>
+  li{
+    list-style:none;
+  }
+  /*
+  .blocktag{
+    background-color:yellowgreen;
+  }
+  .blocktag > div{
+    background:skyblue;
+    border:1px solid black;
+  }
+  .inlinetag span{
+    background:green;
+    border:1px solid black;
+  }
+  */
+</style>
+<h1>제목<h1>
+<h2>제목</h2>
+<h3>제목</h3>
+
+<ul>
+  <li>목록1</li>
+  <li>목록2</li>
+  <li>목록3</li>
+</ul>
+
+<!--
+<div class="blocktag">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+
+<div class="inlinetag">
+  <span>1</span>
+  <span>2</span>
+  <span>3</span>
+</div>  -->
+mmmmmmmmmmmmmmmm
+<body>
+  <style>
+    li{
+      list-style:none;
+    }
+    .colorbtn{
+      background-color:green;
+      width:100px;
+      height:100px;
+      color:white;
+      text-align:center;
+      line-height:72px;
+      cursor:pointer;
+      border-radius:3px;
+    }
+  </style>
+
+  <form>
+    <ul>
+      <li><input type="text"></li>
+      <li><input type="password"></li>
+      <li><label><input type="checkbox" name="fruit" id="orange">오렌지</label>
+      <li><label><input type="checkbox" name="fruit" id="apple">사과</label>
+      <li><label><input type="checkbox" name="fruit" id="strawberry">딸기</label>
+      <li><input type="button" value="누르십시오"></li>
+      <li><input type="submit" value="저장하기"></li>
+      <li><div class="colorbtn">
+          버튼!
+      </div></li>
+    </ul>
+
+  </form>
+</body>
+  
